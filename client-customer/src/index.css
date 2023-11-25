@@ -1,0 +1,201 @@
+/* styles.css */
+.body-customer {
+  width: 1150px;
+  height: fit-content;
+  margin: 0px auto;
+}
+.body-admin {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+}
+div.inline {
+  display: inline-block;
+}
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+.align-center {
+  width: fit-content;
+  margin: 0px auto;
+}
+.login{
+  height: 630px;
+  width: 100%; /* Để form login chiếm toàn bộ chiều rộng của phần tử cha */
+  max-width: 400px; /* Độ rộng tối đa của form để nó không quá rộng */
+  margin: 0 auto; /* Canh giữa form trong phần tử cha */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+}
+.hihi{
+  padding-top: 50%;
+}
+
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+}
+.text-center {
+  text-align: center;
+}
+span.link {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+/* menu.css */
+div.border-bottom {
+  border-bottom: 1px solid black;
+  padding: 10px 0px 10px 0px;
+  background-color: white;
+}
+.menutext-dark {
+  color:dark;
+}
+/* trang chủ */
+.row2{
+  display: flex;
+  flex-direction: row;
+}
+.logan{
+  font-size: 25px;
+  text-align: left;
+}
+.Nen{
+  background-image:url("img/model.png") ;
+  background-size: cover; /* Có thể điều chỉnh để phù hợp với thiết kế của bạn */
+  background-position: center;
+  height: 60vh; /* Chiều cao 100% của viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+}
+
+.text-primary{
+  margin-bottom: 1.5rem !important;
+}
+
+.text-primary {
+  color: #00B98E !important;
+  font-size: 80px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: black;
+}
+.menu.text-dark {
+  color: black;
+  background-color: white;
+}
+div.float-left {
+  float:  right;
+}
+.trangchu{
+  float: left;
+  overflow: hidden;
+}
+
+.trangchu a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.giohang{
+  float: left;
+  color: black;
+  background-color: white;
+}
+.float-right {
+  float: right;
+  padding: 10px;
+}
+div.float-clear {
+  clear: both;
+}
+ul.menu {
+  margin: 0px;
+  padding: 0px;
+}
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+form.search {
+  margin: 0px;
+  margin-right: 10px;
+}
+input.keyword {
+  width: 153px;
+}
+/* datatable.css */
+.datatable {
+  text-align: center;
+  border-collapse: collapse;
+}
+/* header */
+tr:first-child.datatable {
+  background-color: #ffcc00;
+}
+/* even rows, except header */
+tr:not(:first-child):nth-child(even).datatable {
+  background-color: #f5f5f5;
+}
+/* odd rows, except header */
+tr:not(:first-child):nth-child(odd).datatable {
+  background-color: #ffeeaa;
+}
+/* except header */
+tr:not(:first-child):hover.datatable {
+  background-color: #dcfcfc;
+  cursor: pointer;
+}
+/* thành viên nhóm */
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.kkk{
+  text-align: center;
+}
+.huhu{
+  text-align: center;
+}
+/* Chân web (footer) */
+.kl1 li{
+  list-style: none;
+}
+.kl1 a{
+  text-decoration: none;
+  color: rgb(83, 83, 151);
+}
+.row1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url("img/footer.png");
+
+}
+.kl1 h4{
+  color: white;
+  text-align: center;
+}
+.team-member{
+  padding-right: 10px;
+}
